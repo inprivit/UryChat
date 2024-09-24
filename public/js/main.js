@@ -91,7 +91,7 @@ function outputUsers(users) {
 
 // Prompt the user before leaving the chat room
 document.getElementById('leave-btn').addEventListener('click', () => {
-  const leaveRoom = confirm('Tem certeza de que deseja sair da sala de bate-papo?');
+  const leaveRoom = confirm('Tem certeza de que deseja sair da sala?');
   if (leaveRoom) {
     window.location = '../index.html'; // Ajuste o caminho conforme a estrutura do seu projeto
   }
