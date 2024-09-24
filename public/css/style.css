@@ -190,7 +190,7 @@ a {
 	width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 	.chat-main {
 		display: block;
 	}
@@ -200,7 +200,7 @@ a {
 	}
 
 	.chat-messages {
-		max-height: calc(80vh - 150px); /* Ajuste a altura para telas menores */
+		max-height: calc(100vh - 150px); /* Ajuste a altura para telas menores */
 	}
 }
 
