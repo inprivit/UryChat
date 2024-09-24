@@ -200,7 +200,7 @@ a {
 	}
 
 	.chat-messages {
-		max-height: calc(100vh - 150px); /* Ajuste a altura para telas menores */
+		max-height: calc(80vh - 150px); /* Ajuste a altura para telas menores */
 	}
 }
 
