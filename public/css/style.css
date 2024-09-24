@@ -45,7 +45,6 @@ a {
 	background: #fff;
 	margin: 30px auto;
 	overflow: hidden;
-	height: calc(100vh - 60px); /* Ajuste a altura total */
 }
 
 .chat-header {
@@ -57,7 +56,6 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 60px; /* Ajuste a altura do cabeçalho */
 }
 
 .chat-main {
@@ -78,6 +76,7 @@ a {
     padding-right: 10px; /* Espaçamento interno para que a rolagem não sobreponha o conteúdo */
 }
 
+
 .chat-sidebar h2 {
 	font-size: 20px;
 	background: rgba(0, 0, 0, 0.1);
@@ -95,8 +94,8 @@ a {
 
 .chat-messages {
 	padding: 30px;
-	max-height: calc(100vh - 200px); /* Ajuste conforme necessário */
-	overflow-y: auto; /* Certifique-se de que a rolagem funcione */
+	max-height: 710px;
+	overflow-y: scroll;
 }
 
 .chat-messages .message {
@@ -112,7 +111,7 @@ a {
 	font-weight: bold;
 	color: var(--dark-color-b);
 	opacity: 0.7;
-	margin-bottom: 3px;
+	margin-bottom: 7px;
 }
 
 .chat-messages .message .meta span {
@@ -122,9 +121,6 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
-	position: absolute; /* Para fixar no fundo */
-	bottom: 0; /* Fixa na parte inferior */
-	width: 100%; /* Para preencher a largura */
 }
 
 .chat-form-container form {
@@ -190,45 +186,29 @@ a {
 	width: 100%;
 }
 
-/* Estilos para telas menores que 768px */
-@media (max-width: 768px) {
-  .chat-form-container {
-    width: 90%; /* Reduz a largura do container */
-    margin: 0 10px; /* Reduz a margem do container */
-  }
-
-  .chat-form-container input[type='text'] {
-    font-size: 14px; /* Reduz o tamanho da fonte do campo de texto */
-    height: 30px; /* Reduz a altura do campo de texto */
-  }
-
-  .chat-form-container button[type='submit'] {
-    font-size: 14px; /* Reduz o tamanho da fonte do botão de enviar */
-    padding: 5px 10px; /* Reduz a padding do botão de enviar */
-  }
-
+@media (max-width: 700px) {
+	.chat-main {
+		display: block;
+	}
 
 	.chat-sidebar {
 		display: none;
 	}
-
-	.chat-messages {
-		max-height: calc(100vh - 150px); /* Ajuste a altura para telas menores */
-	}
 }
-
 /* Estilos específicos para links em mensagens */
 .chat-messages a {
-	color: var(--dark-color-a);
-	border-bottom: 1px solid #0f0; /* linha verde */
+  color: var(--dark-color-a);
+  border-bottom: 1px solid #0f0; /* linha verde */
 }
 a {
-	border-bottom: 1px solid #0f0; /* linha verde */
+  border-bottom: 1px solid #0f0; /* linha verde */
 }
 
 .chat-messages a:hover {
-	border-bottom: none;
+  border-bottom: none;
 }
+
+
 
 #emoji-list {
     display: flex;
