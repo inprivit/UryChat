@@ -201,7 +201,7 @@ a {
   border-bottom: 1px solid #0f0; /* linha verde */
 }
 a {
-  border-bottom: 1px solid #0f0; /* linha verde */
+  border-bottom: 1px solid; /* linha verde */
 }
 
 .chat-messages a:hover {
@@ -231,9 +231,3 @@ a {
 }
 
 
-/* Estilos para telas menores que 768px */
-@media (max-width: 768px) {
-  .enviar::before {
-    display: none; /* Oculta o emoji em dispositivos móveis */
-  }
-}
