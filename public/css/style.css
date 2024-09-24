@@ -229,3 +229,11 @@ a {
     margin: 5px;
     cursor: pointer;
 }
+
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  .enviar::before {
+    display: none; /* Oculta o emoji em dispositivos móveis */
+  }
+}
