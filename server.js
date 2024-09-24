@@ -4,7 +4,7 @@ const server = require("http").createServer(app);
 const io = require("socket.io")(server);
 const fs = require("fs");
 
-const botName = "ChatCord Bot";
+const botName = "UryChat Bot";
 
 let users = [];
 
