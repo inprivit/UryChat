@@ -186,13 +186,9 @@ a {
 	width: 100%;
 }
 
-/* Estilos para telas menores que 500px de altura */
-@media (max-height: 600px) {
-  .chat-main {
-    /* Altere a altura do chat aqui */
-    height: 500px; /* Exemplo de altura */
-    overflow-y: auto; /* Adicione scrollbar se necessário */
-  
+@media (max-width: 700px) {
+	.chat-main {
+		display: block;
 	}
 
 	.chat-sidebar {
