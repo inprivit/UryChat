@@ -198,10 +198,10 @@ a {
 /* Estilos específicos para links em mensagens */
 .chat-messages a {
   color: var(--dark-color-a);
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #0f0; /* linha verde */
 }
 a {
-  border-bottom: 1px; 
+  border-bottom: 1px solid #0f0; /* linha verde */
 }
 
 .chat-messages a:hover {
@@ -210,6 +210,29 @@ a {
 
 
 
+#emoji-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    max-height: 150px;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 60px; /* Ajuste conforme necessário */
+    z-index: 1000;
+}
+
+#emoji-list span {
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+}
 
 
-
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  .btn i.fas {
+    display: none; /* Oculta o emoji em dispositivos móveis */
+  }
