@@ -187,10 +187,10 @@ a {
 }
 
 /* Estilos para telas menores que 500px de altura */
-@media (max-height: 500px) {
+@media (max-height: 600px) {
   .chat-main {
     /* Altere a altura do chat aqui */
-    height: 300px; /* Exemplo de altura */
+    height: 500px; /* Exemplo de altura */
     overflow-y: auto; /* Adicione scrollbar se necessário */
   
 	}
