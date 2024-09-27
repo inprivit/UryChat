@@ -102,12 +102,12 @@ a {
 @media only screen and (max-width: 768px) {
   .chat-messages {
     padding: 20px; /* Reduz o padding para telas menores */
-    max-height: 600px; /* Reduz a altura máxima da área de mensagens para telas menores */
+    max-height: 550px; /* Reduz a altura máxima da área de mensagens para telas menores */
   }
 }
 .chat-messages .message {
 	padding: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 	background-color: var(--light-color);
 	border-radius: 5px;
 	overflow-wrap: break-word;
@@ -118,7 +118,7 @@ a {
 	font-weight: bold;
 	color: var(--dark-color-b);
 	opacity: 0.7;
-	margin-bottom: 7px;
+	margin-bottom: 5px;
 }
 
 .chat-messages .message .meta span {
@@ -126,7 +126,7 @@ a {
 }
 
 .chat-form-container {
-	padding: 20px 30px;
+	padding: 10px 10px;
 	background-color: var(--dark-color-a);
 }
 
