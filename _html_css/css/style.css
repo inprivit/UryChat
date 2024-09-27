@@ -92,7 +92,7 @@ a {
 
 .chat-messages {
     padding: 15px;
-    max-height: calc(100vh - 150px); /* Ajusta a altura para não exceder a tela */
+    max-height: calc(80vh - 150px); /* Ajusta a altura para não exceder a tela */
     overflow-y: auto;
 }
 
@@ -133,7 +133,7 @@ a {
 
 /* Join Page */
 .join-container {
-    max-width: 500px;
+    max-width: 400px;
     margin: 80px auto;
     color: #fff;
 }
@@ -168,22 +168,22 @@ a {
     font-size: 16px;
     padding: 5px;
     height: 40px;
-    width: 100%;
+    width: 90%;
 }
 
 .join-main select {
     font-size: 16px;
     padding: 5px;
     height: 40px;
-    width: 100%;
+    width: 90%;
 }
 
 .join-main .btn {
     margin-top: 20px;
-    width: 100%;
+    width: 90%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     .chat-main {
         grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
     }
