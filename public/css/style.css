@@ -102,7 +102,7 @@ a {
 @media only screen and (max-width: 768px) {
   .chat-messages {
     padding: 20px; /* Reduz o padding para telas menores */
-    max-height: 550px; /* Reduz a altura máxima da área de mensagens para telas menores */
+    max-height: 580px; /* Reduz a altura máxima da área de mensagens para telas menores */
   }
 }
 .chat-messages .message {
