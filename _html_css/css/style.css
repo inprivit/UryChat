@@ -41,7 +41,7 @@ a {
 /* Chat Page */
 
 .chat-container {
-	max-width: 900px;
+	max-width: 1100px;
 	background: #fff;
 	margin: 30px auto;
 	overflow: hidden;
@@ -87,7 +87,7 @@ a {
 
 .chat-messages {
 	padding: 30px;
-	max-height: 300px;
+	max-height: 500px;
 	overflow-y: scroll;
 }
 
@@ -96,7 +96,6 @@ a {
 	margin-bottom: 15px;
 	background-color: var(--light-color);
 	border-radius: 5px;
-	overflow-wrap: break-word;
 }
 
 .chat-messages .message .meta {
@@ -129,7 +128,7 @@ a {
 
 /* Join Page */
 .join-container {
-	max-width: 300px;
+	max-width: 500px;
 	margin: 80px auto;
 	color: #fff;
 }
@@ -179,7 +178,7 @@ a {
 	width: 100%;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 700px) {
 	.chat-main {
 		display: block;
 	}
